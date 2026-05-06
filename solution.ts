@@ -24,7 +24,7 @@ const reverseString: TreverseString = (value) => {
     return revStrng
 }
 
-reverseString('lom')
+reverseString('typescript')
 
 
 // problem : 03
