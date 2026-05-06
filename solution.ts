@@ -67,7 +67,7 @@ interface TBook {
 
 const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
 
-const toggleReadStatus = (myBook: TBook) => {
+const toggleReadStatus = (myBook: TBook) : TBook => {
 
     myBook.isRead = true
     return myBook
